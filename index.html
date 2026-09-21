@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#f6e98b" />
+    <meta
+      name="description"
+      content="Un pequeño ramo digital de flores amarillas, hecho con amor para el 21 de septiembre."
+    />
+    <title>Flores amarillas para mi amor</title>
+    <link rel="preload" href="assets/yellow-bouquet.webp" as="image" type="image/webp" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <main class="experience" id="experience">
+      <section class="invitation view" id="invitation" aria-labelledby="greeting">
+        <div class="petal petal-one" aria-hidden="true"></div>
+        <div class="petal petal-two" aria-hidden="true"></div>
+        <div class="petal petal-three" aria-hidden="true"></div>
+
+        <article class="love-letter">
+          <p class="eyebrow">Una sorpresa hecha para ti</p>
+          <h1 id="greeting">Hola, buenas tardes, mi amor.</h1>
+          <p class="intro-copy">
+            Ahorita no puedo darte flores amarillas, pero puedo darte lo que mejor sé hacer.
+          </p>
+
+          <div class="question-area" id="questionArea">
+            <h2>¿Quieres ver tus flores amarillas?</h2>
+
+            <div class="answers" id="answers">
+              <button class="answer answer-yes" id="yesButton" type="button">
+                Sí, quiero
+              </button>
+              <button class="answer answer-no" id="noButton" type="button">
+                No
+              </button>
+            </div>
+
+            <div class="no-response" id="noResponse" role="status" aria-live="polite">
+              <strong>¿Por qué le das a que no?</strong>
+              <span>Igual no importa, acá solo existe un Sí.</span>
+            </div>
+
+            <p class="playful-status" id="playfulStatus" aria-live="polite"></p>
+          </div>
+        </article>
+      </section>
+
+      <section class="celebration view" id="celebration" aria-labelledby="finalMessage" aria-hidden="true">
+        <div class="sun-wash" aria-hidden="true"></div>
+        <div class="petal-rain" id="petalRain" aria-hidden="true"></div>
+
+        <div class="bouquet-wrap">
+          <img
+            class="bouquet"
+            src="assets/yellow-bouquet.webp"
+            width="900"
+            height="1080"
+            alt="Ramo ilustrado de girasoles, margaritas y pequeñas flores amarillas con un lazo rosado"
+          />
+        </div>
+
+        <div class="final-copy">
+          <p>Estas son para ti</p>
+          <h2 id="finalMessage" tabindex="-1">Feliz 21 de septiembre, mi amorcito bello</h2>
+          <span>Hechas con todo mi amor, especialmente para ti.</span>
+
+          <div class="signature-note" aria-label="Dedicatoria de Hebert Cornejo">
+            <p>De tu macho favorito: alfa, novio, esposo, guapo y bello.</p>
+            <strong>Hebert Cornejo</strong>
+          </div>
+
+          <button class="replay-button" id="replayButton" type="button">Ver otra vez</button>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
