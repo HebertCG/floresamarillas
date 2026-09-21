@@ -1,2 +1,6 @@
 # Fuente original sin optimizar. La web usa el archivo WebP.
 assets/*-source.png
+
+# Dependencias y configuración local de Vercel.
+node_modules/
+.vercel/

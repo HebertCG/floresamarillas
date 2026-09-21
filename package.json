@@ -1,0 +1,9 @@
+{
+  "name": "flores-amarillas",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Landing romántica de flores amarillas para el 21 de septiembre.",
+  "scripts": {
+    "check": "node --check script.js"
+  }
+}
